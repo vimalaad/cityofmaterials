@@ -1,0 +1,19 @@
+{
+  "name": "element-lore-story-database-service",
+  "version": "1.0.0",
+  "description": "## Overview A dedicated data service that stores and serves all narrative content including element personalities, origin stories, relationships, and shared city events. Provides CRUD operations through RESTful API with caching and versioning support.",
+  "main": "example-usage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

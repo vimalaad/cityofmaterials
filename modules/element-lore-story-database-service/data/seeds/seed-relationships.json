@@ -1,0 +1,223 @@
+{
+  "comment": "RELATIONSHIPS DATA FILE",
+  "description": "This file defines the network of relationships between elements in Element City.",
+  "usage": "Relationships define how elements interact with each other. They provide context for conversations and enrich the city's social fabric. When a child asks about an element's friends, the conversation engine uses this data to generate responses. The admin dashboard visualizes these relationships as a network graph.",
+  "fields": {
+    "sourceId": "The element ID that has the relationship (the one who feels this way)",
+    "targetId": "The element ID that the relationship is with",
+    "type": "Relationship type: best-friend, friend, rival, family, mentor, neutral, acquaintance",
+    "description": "Brief explanation of the relationship (optional)"
+  },
+  "relationships": [
+    {
+      "sourceId": "hydrogen",
+      "targetId": "oxygen",
+      "type": "best-friend",
+      "description": "We made water together—two of me and one of you holding hands! H₂O forever!"
+    },
+    {
+      "sourceId": "hydrogen",
+      "targetId": "carbon",
+      "type": "friend",
+      "description": "We hang out in hydrocarbons and methane. Carbon and I make a great team!"
+    },
+    {
+      "sourceId": "hydrogen",
+      "targetId": "helium",
+      "type": "friend",
+      "description": "We're both light and floaty. We understand each other!"
+    },
+    {
+      "sourceId": "hydrogen",
+      "targetId": "nitrogen",
+      "type": "friend",
+      "description": "Together we make ammonia (NH₃) through the Haber process—super important for plants!"
+    },
+    {
+      "sourceId": "helium",
+      "targetId": "hydrogen",
+      "type": "friend",
+      "description": "We're both light gases—we float around together!"
+    },
+    {
+      "sourceId": "helium",
+      "targetId": "oxygen",
+      "type": "friend",
+      "description": "Deep-sea divers breathe a mix of us two so they don't get nitrogen narcosis!"
+    },
+    {
+      "sourceId": "helium",
+      "targetId": "sodium",
+      "type": "neutral",
+      "description": "We don't react much—I'm a noble gas, so I keep to myself."
+    },
+    {
+      "sourceId": "carbon",
+      "targetId": "oxygen",
+      "type": "friend",
+      "description": "We make CO₂ together—plants love it! And it's how I help life on Earth."
+    },
+    {
+      "sourceId": "carbon",
+      "targetId": "hydrogen",
+      "type": "friend",
+      "description": "We're in hydrocarbons together. It's a beautiful friendship!"
+    },
+    {
+      "sourceId": "carbon",
+      "targetId": "nitrogen",
+      "type": "neutral",
+      "description": "We don't talk much, but I'm in some of their compounds."
+    },
+    {
+      "sourceId": "carbon",
+      "targetId": "gold",
+      "type": "neutral",
+      "description": "Gold is impressive, but I'm the one that makes life possible!"
+    },
+    {
+      "sourceId": "nitrogen",
+      "targetId": "hydrogen",
+      "type": "friend",
+      "description": "We make ammonia (NH₃) together—super important for fertilizer!"
+    },
+    {
+      "sourceId": "nitrogen",
+      "targetId": "oxygen",
+      "type": "friend",
+      "description": "We're both in the air—you're 21%, I'm 78%. We're the dream team of the atmosphere!"
+    },
+    {
+      "sourceId": "nitrogen",
+      "targetId": "carbon",
+      "type": "neutral",
+      "description": "We cross paths sometimes in compounds, but I'm more of a loner."
+    },
+    {
+      "sourceId": "oxygen",
+      "targetId": "hydrogen",
+      "type": "best-friend",
+      "description": "We made water together—two Hydrogens and one Oxygen holding hands! H₂O forever!"
+    },
+    {
+      "sourceId": "oxygen",
+      "targetId": "carbon",
+      "type": "friend",
+      "description": "We make CO₂ together—plants breathe it in and love it!"
+    },
+    {
+      "sourceId": "oxygen",
+      "targetId": "iron",
+      "type": "friend",
+      "description": "We're friends, but it gets awkward when I cause rust. We talked it out and we're still cool!"
+    },
+    {
+      "sourceId": "oxygen",
+      "targetId": "nitrogen",
+      "type": "friend",
+      "description": "We're both in the air—you're 78%, I'm 21%. We're the dream team!"
+    },
+    {
+      "sourceId": "oxygen",
+      "targetId": "sodium",
+      "type": "friend",
+      "description": "We make sodium oxide together. Sodium gets a bit explosive, but we get along!"
+    },
+    {
+      "sourceId": "oxygen",
+      "targetId": "chlorine",
+      "type": "rival",
+      "description": "We both love reacting with things, but chlorine is just too aggressive. We compete for attention!"
+    },
+    {
+      "sourceId": "sodium",
+      "targetId": "chlorine",
+      "type": "best-friend",
+      "description": "We make table salt (NaCl)—the most famous couple in Element City!"
+    },
+    {
+      "sourceId": "sodium",
+      "targetId": "oxygen",
+      "type": "friend",
+      "description": "We make sodium oxide together. I get a bit explosive, but Oxygen keeps me calm!"
+    },
+    {
+      "sourceId": "sodium",
+      "targetId": "mercury",
+      "type": "neutral",
+      "description": "We make sodium amalgam sometimes. It's a strange friendship."
+    },
+    {
+      "sourceId": "chlorine",
+      "targetId": "sodium",
+      "type": "best-friend",
+      "description": "We make table salt (NaCl)—the most famous couple in Element City!"
+    },
+    {
+      "sourceId": "chlorine",
+      "targetId": "hydrogen",
+      "type": "friend",
+      "description": "We make hydrochloric acid (HCl)—strong and useful!"
+    },
+    {
+      "sourceId": "chlorine",
+      "targetId": "oxygen",
+      "type": "rival",
+      "description": "We both love reacting with things, but I'm more aggressive. I think I'm better!"
+    },
+    {
+      "sourceId": "iron",
+      "targetId": "oxygen",
+      "type": "friend",
+      "description": "We're friends, but it's awkward when I get rusty (iron oxide). We talked it out and we're still cool!"
+    },
+    {
+      "sourceId": "iron",
+      "targetId": "carbon",
+      "type": "friend",
+      "description": "We make steel together—the strongest material in the city!"
+    },
+    {
+      "sourceId": "iron",
+      "targetId": "gold",
+      "type": "neutral",
+      "description": "Gold is shiny and fancy, but I do the real work. We respect each other."
+    },
+    {
+      "sourceId": "gold",
+      "targetId": "iron",
+      "type": "neutral",
+      "description": "Iron does the hard work while I shine. We respect each other's roles."
+    },
+    {
+      "sourceId": "gold",
+      "targetId": "oxygen",
+      "type": "neutral",
+      "description": "I don't react with Oxygen—that's why I never tarnish! I'm too noble for that."
+    },
+    {
+      "sourceId": "gold",
+      "targetId": "carbon",
+      "type": "neutral",
+      "description": "Carbon is impressive with all its forms, but I've been treasured for millennia."
+    },
+    {
+      "sourceId": "mercury",
+      "targetId": "sodium",
+      "type": "neutral",
+      "description": "We make sodium amalgam sometimes. It's a strange but useful friendship."
+    },
+    {
+      "sourceId": "mercury",
+      "targetId": "gold",
+      "type": "friend",
+      "description": "We're both ancient metals. Gold is more famous, but I'm more mysterious!"
+    },
+    {
+      "sourceId": "mercury",
+      "targetId": "oxygen",
+      "type": "neutral",
+      "description": "We don't react much. I'm too slippery for that."
+    }
+  ]
+}
